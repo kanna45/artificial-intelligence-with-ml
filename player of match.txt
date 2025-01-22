@@ -1,0 +1,3 @@
+#player of match 
+player=d["player_of_match"].value_counts() 
+print(player) 

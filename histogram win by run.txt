@@ -1,0 +1,8 @@
+#2.histogram win by run 
+
+plt.figure(figsize=(10,5)) 
+plt.hist(d['win_by_runs'],bins=8) 
+plt.title('win by runs') 
+plt.xlabel('win scored') 
+plt.ylabel('number') 
+plt.show()

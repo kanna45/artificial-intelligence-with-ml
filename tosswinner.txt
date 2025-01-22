@@ -1,0 +1,3 @@
+#tosswinner 
+toss=d["toss_winner"].value_counts() 
+print(toss) 

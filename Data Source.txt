@@ -1,0 +1,11 @@
+Data Source: 
+Cricket is hugely popular in India, and the IPL is a major sporting event. You can find IPL data on Kaggle 
+or websites like ESPNcricinfo. 
+EDA Focus: 
+1. Explore team performance over seasons (wins, losses, win percentages). 
+2. Analyze individual player statistics (batting averages, bowling strike rates). 
+3. Identify trends in match outcomes (home advantage, toss wins). 
+4. Visualize key metrics using histograms, scatter plots, and box plots. 
+Pandas Library Usage: 
+pd.read_csv() to load the data. df.groupby() to aggregate data by teams or players. df.describe() to get 
+summary statistics. df.corr() to find correlations between variables.

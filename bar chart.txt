@@ -1,0 +1,8 @@
+#bar chart
+
+plt.figure(figsize=(10,5)) 
+sns.countplot(x='winner',data=d) 
+plt.title('NUMBER OF TEAMS WIN') 
+plt.xlabel('team') 
+plt.ylabel('win') 
+plt.show() 
